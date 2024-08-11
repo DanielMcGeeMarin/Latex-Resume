@@ -1,77 +1,154 @@
 % !TEX program = xelatex
 
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{tabularx}
 
 \begin{document}
-\pagenumbering{gobble} % suppress displaying page number
-
-\name{Bin Yuan}
-
+\pagenumbering{gobble} % suppress displaying page number 
+\name{Daniel McGee Marin}
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
-
+  \email{mcgeedan@berkeley.edu} \textperiodcentered\ 
+  \faGlobe \href{https://mcgeedan.com}{ mcgeedan.com} \textperiodcentered\ 
+  \phone{(859) 445-1659} \textperiodcentered\ 
+  \linkedin[DanielMcGeeMarin]{https://www.linkedin.com/in/danielmcgeemarin/}}
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+\datedsubsection{\textbf{University of California at Berkeley}, CA }{2024 -- Present}
+\textit{GPA: --}\\
+B.S in Electrical Engineering and Computer Science (EECS) + Business Administration Dual Major:\\
+\textit{Management Entrepreneurship and Technology Program}, expected graduation May 2028.
+\datedsubsection{\textbf{Northern Kentucky University}, KY}{2022 -- 2024}
+\textit{GPA: 4.0}\\
+Dual enrollment program, took full-time university courses specializing in pre-engineering.
+\begin{itemize}
+    \item Relevant Coursework: Numerical Analysis, Vector Calculus, and Object Oriented Programming
+    \item Extracurriculars: VEXU Robotics, Volunteer Bilingual Tutor, Program Ambassador, Band
+\end{itemize}
+\datedsubsection{\textbf{Stanford}, CA}{Summer 2023}
+\textit{GPA: 4.0}\\
+Summer residential program, taking the following coursework at Stanford:
+\begin{itemize}
+    \item Ordinary Differential Equations, Introduction to Formal Methods of Philosophy, Public Speaking
+\end{itemize}
+\datedsubsection{\textbf{High School}, KY}{2020 -- 2024}
+\textit{GPA: 4.88 weighted --- Valedictorian}\\
+Took two years at Highlands High School, transferring to Scott High School for dual enrollment opportunities.
+
+\begin{itemize}
+%    \item Extracurriculars: FIRST Robotics, Band (Jazz, Marching, Concert)
+     \item Was ranked first for GPA at Highlands when I left, and graduated from Scott as Valedictorian
+\end{itemize}
+
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\datedsubsection{\textbf{R Shiny Developer}, Northern Kentucky University}{Summer 2024}
+\role{Summer Researcher}{Mentors: Andy Long, Nelum Hapuhinna}
+Undergraduate research project to create an air quality dashboard and backend in R Shiny.
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Visualized large scale map data, adding location analysis tools
+  \item Created interpolated heatmap algorithms
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{ML Audio Classification Researcher}, Northern Kentucky University}{Summer 2023}
+\role{Summer Researcher}{Mentor:Andy Long}
+Created a device to alert people with hearing disabilities in war zones.
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Trained ML model to classify gunshots and sirens with 97\% accuracy
+  \item Built and wired an Arduino device to implement the model
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
-\begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
-\end{itemize}
-
+\datedsubsection{\textbf{Math and Stats Tutor}}{Mar 2023 -- May 2024}
+%\role{Tutor}{Manager: Lisa Holden}
+Worked at the department drop-in tutoring lab, covering content from algebra to vector calculus and statistics. 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
 %An xxx optimized for xxx\cite{verma2015large}
 %\begin{itemize}
 %  \item main contribution
 %\end{itemize}
-
 \section{\faCogs\ Skills}
+\begin{tabularx}{\textwidth}{X X X}
+    \small \textbf{Relevant Coursework:}  & \small \textbf{Programming Skills:}  & \small \textbf {Languages:}\\
+    \vspace{-0.5em}\begin{itemize}[parsep=0.5ex]
+       \item Calculus I, II, III
+        \item Differential Equations
+        \item Numerical Analysis
+        \item Probability and Statistics        
+    \end{itemize} &
+    \vspace{-0.5em}\begin{itemize}[parsep=0.5ex]
+        \item Python (intermediate) 
+        \item Java (intermediate)
+        \item C++(beginner), C{\scriptsize\bf \#}(advanced)
+        \item Lua (advanced)
+        \item MATLAB (intermediate)
+    \end{itemize} &
+     \vspace{-0.5em}\begin{itemize}[parsep=0.5ex]
+        \item Spanish (Native or Bilingual)
+        \item English (Native or Bilingual)
+        \item Japanese (Limited Working)
+    \end{itemize}\\
+\end{tabularx}
+\section{\faCertificate\ Achievements}
+\datedsubsection{\textbf{HITEC Scholar}}{Jul 2024}
+\begin{itemize}
+    \item Hispanic technology scholarship for emerging young professionals, scholars are paired with a one on one mentor, and are invited to HITEC workshops
+\end{itemize}
+\vspace{0.2em}
+\datedsubsection{\textbf{SKECHERS Foundation Scholarship Recipient}}{Jun 2024}
+\begin{itemize}
+    \item Scholarship selection based on academics, leadership and career goals
+\end{itemize}
+\vspace{0.2em}
+\datedsubsection{\textbf{NKU President's Honors List}} {2022 -- 2024}
+\begin{itemize}
+    \item 4.0 GPA for four semesters
+\end{itemize}
+\vspace{0.2em}
+\datedsubsection{\textbf{Mathemalchemy Workshop Assitant}}{Feb 2024}
+\begin{itemize}
+    \item Selected to assist \textit{Ingrid Daubechies} in the workshop at Northern Kentucky University focusing in the intersection between Art and Math
+\end{itemize}
+\vspace{0.2em}
+\datedsubsection{\textbf{LULAC National Educational Service Centers Scholarship Recipient}}{Sep 2023}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+    \item Awarded a scholarship to serve as a regional representative to the 2023 Washington Youth Leadership Seminar in Washington D.C
+    \item Selected to deliver one of two participants keynote addresses at the LULAC Leadership Conference Banquet in Washington D.C
+\end{itemize}
+\vspace{0.2em}
+\datedsubsection{\textbf{NKU Exceptional Partner in First-Year Student Success }}{May 2023} 
+\begin{itemize}
+    \item Awarded for work as a bilingual math tutor, helping students who needed support
 \end{itemize}
 
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
+
+\section{\faHeartO\ Volunteer Work}
+\datedsubsection{\textbf{College Readiness Trainer}, Northern Kentucky University}{Oct 2023 -- Dec 2023}
+\begin{itemize}[parsep=0.5ex]
+    \item Led weekly sessions for dual enrollment students to help them achieve college readiness in Mathematics
+\end{itemize}
+\datedsubsection{\textbf{Math Teacher's Assistant}, Northern Kentucky University}{May 2022}
+\begin{itemize}[parsep=0.5ex]
+    \item Co-led math sessions at a Northern Kentucky University summer-camp for Latin(x) middle school students
+\end{itemize}
+\datedsubsection{\textbf{Math Teacher's Assistant}, Esperanza Latino Center}{Jan 2020}
+\begin{itemize}[parsep=0.5ex]
+    \item Co-led a 6-week math exploration camp at the Esperanza Latino Center in Covington, KY
+    \item Tutored online for the Esperanza Center throughout the summer of 2021
+\end{itemize}
+
 
 \section{\faInfo\ Miscellaneous}
+\subsection{GitHub: \href{https://github.com/DanielMcGeeMarin}{Github.com/DanielMcGeeMarin}}
+\subsection{Personal Projects:}
 \begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
+  \item Saifu TOTP authenticator app + web extention
+  \item Ubuntu home server admin, hosting my website and several docker apps
 \end{itemize}
+\subsection{Presentations:}
+\begin{itemize}[parsep=0.5ex]
+  \item “NKU Air Quality Dashboard Showcase”. NKU URSTEM Seminar Series. April 19, 2024
+  \item “Getting Critical Information to the Deaf in a War Zone”. NKU Math Dept Seminar Series. July 23, 2024
+\end{itemize}
+
 
 %% Reference
 %\newpage
