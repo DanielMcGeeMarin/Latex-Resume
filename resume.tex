@@ -2,9 +2,11 @@
 
 \documentclass{resume}
 \usepackage{tabularx}
+\usepackage{geometry} % Add this package for custom margins
+\geometry{left=0.75in, right=0.75in, top=0.5in, bottom=0.5in}
 
 \begin{document}
-\vspace*{-0.4in} % Adjust the space above the content
+%\vspace*{-0.4in} % Adjust the space above the content
 \pagenumbering{gobble} % suppress displaying page number 
 \name{Daniel McGee Marin}
 \basicInfo{
@@ -13,56 +15,47 @@
   \phone{(859) 445-1659} \textperiodcentered\ 
   \linkedin[DanielMcGeeMarin]{https://www.linkedin.com/in/danielmcgeemarin/}}
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{University of California, Berkeley}, CA }{2024 -- Present}
+\datedsubsection{\textbf{\textbf{UC Berkeley - Management, Entrepreneurship, \& Technology Program}}}{Expected 2028}
 \textit{GPA: --}\\
-Currently in the Management Entrepreneurship and Technology Dual Major Program, class of 2028.
-\begin{itemize}
-    \item B.S in Electrical Engineering and Computer Science (EECS)
-    \item B.S in Business Administration
-\end{itemize}
-\datedsubsection{\textbf{Northern Kentucky University}, KY}{2022 -- 2024}
+Dual Degree: B.S. Electrical Engineering \& Computer Science/B.S. Business
+\datedsubsection{\textbf{Northern Kentucky University - Young Scholars Academy}}{2022 -- 2024}
 \textit{GPA: 4.0}\\
 Dual enrollment program for high school students with full-time university courses specializing in pre-engineering.
 \begin{itemize}
     \item Relevant Coursework: Numerical Analysis, Vector Calculus, and Object Oriented Programming
     \item Extracurriculars: VEXU Robotics, Volunteer Bilingual Tutor, Program Ambassador, Band
 \end{itemize}
-\datedsubsection{\textbf{Stanford}, CA}{Summer 2023}
-\textit{GPA: 4.0}\\
-Summer residential program, completing the following coursework.
+\datedsubsection{\textbf{Stanford - Summer Residential Program }}{Summer 2023}
+\textit{GPA: 4.0}
 \begin{itemize}
-    \item Ordinary Differential Equations, Introduction to Formal Methods of Philosophy, Public Speaking
+    \item Coursework: Ordinary Differential Equations, Intro to Formal Methods of Philosophy, Public Speaking
 \end{itemize}
-\datedsubsection{\textbf{High School}, KY}{2020 -- 2024}
-\textit{GPA: 4.88 weighted --- Ranked \#1}\\
-Spent two years at Highlands High School, transferring to Scott High School for the dual enrollment opportunity.
-
-\begin{itemize}
-%    \item Extracurriculars: FIRST Robotics, Band (Jazz, Marching, Concert)
-     \item Ranked first for GPA at Highlands, and graduated from Scott with the highest GPA
-\end{itemize}
-
+\datedsubsection{\textbf{Scott High School}, KY}{2020 -- 2024}
+\textit{GPA: 4.88 weighted --- Ranked \#1}
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{R Shiny Developer}, Northern Kentucky University}{Summer 2024}
-\role{Summer Researcher}{Mentors: Professors Andy Long and Nelum Hapuhinna}
-Undergraduate research project to create an air quality dashboard and backend in R Shiny.
+\datedsubsection{\textbf{Community Air Quality Dashboard Developer}, Northern Kentucky University}{Summer 2024}
+\textit{Summer Undergraduate Researcher} --- Mentors: Professors Andy Long and Nelum Hapuhinna
 \begin{itemize}
-  \item Visualized large scale map data, adding location analysis tools
-  \item Created interpolated heatmap algorithms
+  \item Programmed an online air quality dashboard in R Shiny, visualizing geospatial data with interactive maps, interpolated heat map algorithms, and location analysis tools
+  \item Dashboard helped local communities understand and advocate for their air quality
+
 \end{itemize}
 
 \datedsubsection{\textbf{ML Audio Classification Researcher}, Northern Kentucky University}{Summer 2023}
-\role{Summer Researcher}{Mentor: Professor Andy Long}
-Created a device to alert people with hearing disabilities in war zones.
+\textit{Summer Undergraduate Researcher} --- Mentor: Professor Andy Long
 \begin{itemize}
-  \item Trained ML model to classify gunshots and sirens with 97\% accuracy
-  \item Built and wired an Arduino device to implement the model
+  \item Trained a machine learning model to classify gunshot and siren sounds, and tuned the model to 97\% accuracy, allowing it to alert those with hearing disabilities to detected dangers
+  \item Assembled an Arduino device to implement the model, focusing on battery life and weight to ensure the device's deployability, resulting in a seminar presentation and submission to a VentureWell competition
+
 \end{itemize}
 
 \datedsubsection{\textbf{Math and Stats Tutor}}{Mar 2023 -- May 2024}
 %\role{Tutor}{Manager: Lisa Holden}
-Worked at the department drop-in tutoring lab, covering content from algebra to vector calculus and statistics. 
+\begin{itemize}
+\item Tutored at the department drop-in tutoring lab, covering content from algebra to vector calculus and statistics, with an emphasis on understanding patterns and methods over memorization
+\item Recognized by the tutoring lab manager for dedication and enthusiasm
+\end{itemize}
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
 %An xxx optimized for xxx\cite{verma2015large}
@@ -92,6 +85,30 @@ Worked at the department drop-in tutoring lab, covering content from algebra to 
         \item Japanese (Limited Working)
     \end{itemize}\\
 \end{tabularx}
+
+\section{\faHeartO\ LEADERSHIP \& COMMUNITY IMPACT}
+\datedsubsection{\textbf{College Readiness Trainer}, Northern Kentucky University}{Oct 2023 -- Dec 2023}
+\begin{itemize}[parsep=0.5ex]
+    \item Coached dual enrollment students in math, strengthening their fundamentals and grasp of the topics
+\end{itemize}
+\datedsubsection{\textbf{Math Camp Co-Leader}, Northern Kentucky University}{May 2022}
+\begin{itemize}[parsep=0.5ex]
+    \item Co-led math camps for Hispanic students, aiming to make math enjoyable and inspire interest in STEM
+\end{itemize}
+\datedsubsection{\textbf{Washington Youth Leadership Representative}, LULAC National Educational Services}{Sep 2023}
+\begin{itemize}[parsep=0.5ex]
+    \item Represented my region in Washington, D.C., working with a team to identify education barriers to Hispanic students and develop solutions
+    \item Led to my selection as one of two keynote speakers at the LULAC Leadership Banquet.
+
+
+\end{itemize}
+\datedsubsection{\textbf{Math Camp Co-Leader}, Esperanza Latino Center}{Jan 2020}
+\begin{itemize}[parsep=0.5ex]
+    \item Co-led a 6-week math camp at Esperanza Latino Center, using games and thought exercises to inspire future STEM leaders 
+    \item Combined with community involvement, this led to my appointment as a LULAC Regional Representative
+
+\end{itemize}
+
 \section{\faCertificate\ Achievements}
 \datedsubsection{\textbf{HITEC Scholar}}{Jul 2024}
 \begin{itemize}
@@ -113,33 +130,10 @@ Worked at the department drop-in tutoring lab, covering content from algebra to 
     \item Selected to assist \textit{Ingrid Daubechies} on the workshop at Northern Kentucky University focusing in the interrelationship between Art and Math
 \end{itemize}
 \vspace{0.2em}
-\datedsubsection{\textbf{LULAC National Educational Service Centers Scholarship Recipient}}{Sep 2023}
-\begin{itemize}[parsep=0.5ex]
-    \item Awarded a scholarship to serve as a regional representative to the 2023 Washington Youth Leadership Seminar in Washington D.C.
-    \item Selected to deliver one of two participants keynote addresses at the LULAC Leadership Conference Banquet in Washington D.C.
-\end{itemize}
-\vspace{0.2em}
 \datedsubsection{\textbf{NKU Exceptional Partner in First-Year Student Success }}{May 2023} 
 \begin{itemize}
     \item Awarded for work as a bilingual math tutor, helping students who needed support
 \end{itemize}
-
-
-\section{\faHeartO\ Volunteer Work}
-\datedsubsection{\textbf{College Readiness Trainer}, Northern Kentucky University}{Oct 2023 -- Dec 2023}
-\begin{itemize}[parsep=0.5ex]
-    \item Conducted weekly sessions for dual enrollment students to help them achieve college readiness in Mathematics
-\end{itemize}
-\datedsubsection{\textbf{Math Teacher's Assistant}, Northern Kentucky University}{May 2022}
-\begin{itemize}[parsep=0.5ex]
-    \item Co-led math sessions at a Northern Kentucky University summer-camp for Latin(x) middle school students
-\end{itemize}
-\datedsubsection{\textbf{Math Teacher's Assistant}, Esperanza Latino Center}{Jan 2020}
-\begin{itemize}[parsep=0.5ex]
-    \item Co-led a 6-week math exploration camp at the Esperanza Latino Center in Covington, KY
-    \item Online tutor for the Esperanza Center throughout the summer of 2021
-\end{itemize}
-
 
 \section{\faInfo\ Miscellaneous}
 \subsection{GitHub: \href{https://github.com/DanielMcGeeMarin}{Github.com/DanielMcGeeMarin}}
